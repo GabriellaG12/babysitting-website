@@ -28,12 +28,16 @@ nav a {
   border-radius: 10px;
 }
 
-.hero, .why, .services, .testimonials, .call-to-action {
+.hero, .why, .services, .testimonials {
   padding: 40px 20px;
   max-width: 800px;
   margin: 20px auto;
   border-radius: 10px;
   background-color: transparent; /* Or remove this line if you want default bg */
+}
+
+.call-to-action {
+  background-color: #ffe3ec;
 }
 .cta-button {
   display: inline-block;
